@@ -1,0 +1,33 @@
+
+.text{
+position: absolute;
+right: 50%;
+right: 9%;
+top: 15%;
+color: #fd9c01;
+font-size: 50px;
+display: flex;
+flex-direction: column;
+filter: contrast(1.35) brightness(0.65);
+}
+.login , .register{
+    font-size: 25px;
+    width: 150px;
+    color: white;
+    border: 2px solid #fd9c01;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 80px;
+    position: relative;
+    left: 30%;
+}
+
+button:hover{
+    box-shadow: 3px 4px;
+    color: #fd9c01;
+    border: 2px solid white;
+    filter: contrast(1.35) brightness(0.65);
+
+}
+
+
